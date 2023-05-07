@@ -20,9 +20,9 @@
     --first-color-second:black;
     --first-color-alt: linear-gradient(to bottom, #181d23 0%, #202736 80%);
     --first-color-lighter: red;
-    --title-color: #ffffff;
+    --title-color: #2b2828;
     --text-color:white;
-    --text-color-light:white;
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: red;
     --container-color: #fff;
@@ -697,7 +697,7 @@ img {
 
 .services_icon {
     display: block;
-    color: var(--first-color);
+    color: red;
     margin-bottom: var(--mb-1);
     font-size: 1.5rem;
 }
@@ -711,6 +711,7 @@ img {
 .services_button {
     font-size: var(--small-font-size);
     cursor: pointer;
+    color: #f00;
 }
 
 .services_button:hover .button_icon {
