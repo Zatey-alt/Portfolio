@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="substyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xXCtgjlkTz8m1klw0+hBfr+6PlgS6/8ePbN/7VlUzN4+QV8nnPydOFL7V/JJLWvhQeyr5rXOO5Z5e5Z5O8zFg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -30,124 +34,73 @@
         <li><a href="contact.html" class="nav-link">Contact</a></li>
     </div>
    </div>
-   <div class="about1" >
-    <div class="card2">
-      <div class="about-header">About Me</div>
-      <div class="about-body">
-        <p>Learn more about me</p>
+   <div class="about1 swiper-container">
+    <div class="swiper-wrapper">
+      <div class="card2 swiper-slide">
+        <!-- About Me content -->
         
-          <h3>UI/UX / Graphic Designer / 3D / Web Dev</h3>
-              <ul>
-                <li> <strong>Birthday:</strong> <span>28 July 1998</span></li>
-                <li><strong>Website:</strong> <span>michaelzatey.com</span></li>
-                <li> <strong>Phone:</strong> <span>+233 2048 26671</span></li>
-                <li><strong>City:</strong> <span>Accra, Ghana</span></li>
-                <li><strong>Age:</strong> <span>25</span></li>
-                <li></i> <strong>Degree:</strong> <span>Enrolled</span></li>
-                <li></i> <strong>Email:</strong> <span>michaelzatey@gmail.com</span></li>
-                <li></i> <strong>Freelance:</strong> <span>Available</span></li>
-              </ul>
-              
-             <p>
-              I am a multi-disciplinary professional who is passionate about web design, 3D design, UI/UX, and software development. With several years of experience in these fields, I have developed a wide range of skills and knowledge that enable me to deliver exceptional results to clients and collaborators.
-            </p>
-            </div>
-            
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+          <h2 class="section_title">About Me</h2>
+          <span class="section_subtitle">My Introduction</span>
+          <div class="about_container container grid">
+              <img src="image.jpg" alt="" class="about_img">
+              <div class="about_data">
+                  <p class="about_description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
+                  <div class="about_info">
+                      <div>
+                          <span class="about_info-title">+2</span>
+                          <span class="about_info-name">Years <br> experience</span>
+                      </div>
+                      <div>
+                          <span class="about_info-title">+15</span>
+                          <span class="about_info-name">Completed <br> project</span>
+                      </div>
+                      <div>
+                          <span class="about_info-title">+1</span>
+                          <span class="about_info-name">Companies <br> worked</span>
+                      </div>
+
+                  </div>
+
+                  <div class="about_buttons">
+                      <a download="Zatey Resume.pdf" href="" class="button button--flex">
+                              Download Resume<i class="uil uil-download-alt button_icon"></i>
+                          </a>
+                  </div>
+              </div>
           </div>
-          
-        </div>
-      </div>
+
+      </section>
+
         
-      
+      </div>
+      <div class="card1 swiper-slide">
+        <!-- My Skills content -->
+      </div>
+      <div class="card3 swiper-slide">
+        <!-- Services content -->
+      </div>
     </div>
-      <div class="card1">
-        <div class="skill-header">My Skills</div>
-        <div class="skill-body">
-          <div class="skill">
-            <div class="skill-name">HTML</div>
-            <div class="skill-level">
-              <div class="skill-percent" style="width: 90%"></div>
-            </div>
-            <div class="skill-percent-number">90%</div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">CSS</div>
-            <div class="skill-level">
-              <div class="skill-percent" style="width: 80%"></div>
-            </div>
-            <div class="skill-percent-number">80%</div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">JavaScript</div>
-            <div class="skill-level">
-              <div class="skill-percent" style="width: 75%"></div>
-            </div>
-            <div class="skill-percent-number">75%</div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">Python</div>
-            <div class="skill-level">
-              <div class="skill-percent" style="width: 75%"></div>
-            </div>
-            <div class="skill-percent-number">75%</div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">UI/UX</div>
-            <div class="skill-level">
-              <div class="skill-percent" style="width: 75%"></div>
-            </div>
-            <div class="skill-percent-number">85%</div>
-          </div>
-          <div class="skill">
-            <div class="skill-name">PHP</div>
-            <div class="skill-level">
-              <div class="skill-percent" style="width: 75%"></div>
-            </div>
-            <div class="skill-percent-number">75%</div>
-          </div>
-        </div>
-      </div>
-      
-
-      <div class="card3">
-        <div class="skill-header">Services</div>
-        <div class="service-body">
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="bi bi-laptop"></i>
-            </div>
-            <h3 class="service-title">Web Development</h3>
-            <p class="service-description">Our web application development service focuses on creating powerful and interactive web-based applications to enhance your business operations or engage your target audience.</p>
-          </div>
-
-        <div class="service-body">
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="bi bi-laptop"></i>
-            </div>
-            <h3 class="service-title">Web Design</h3>
-            <p class="service-description">our web design service focuses on creating visually appealing and user-friendly websites. We believe that a well-designed website is crucial for attracting and engaging visitors.</p>
-          </div>
-        <div class="service-body">
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="bi bi-laptop"></i>
-            </div>
-            <h3 class="service-title">Web Application Development</h3>
-            <p class="service-description">we build dynamic and functional websites tailored to your specific requirements.</p>
-          </div>
-          
-          
-        </div>
-      </div>
-   
-    
- 
+    <!-- Add Swiper pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
   
-
-      
- 
-   </div>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.about1', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
    
    <script src="script.js"></script>
 </body>

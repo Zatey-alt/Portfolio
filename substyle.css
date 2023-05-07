@@ -20,9 +20,9 @@
     --first-color-second:black;
     --first-color-alt: linear-gradient(to bottom, #181d23 0%, #202736 80%);
     --first-color-lighter: red;
-    --title-color: #2b2828;
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --title-color: #ffffff;
+    --text-color:white;
+    --text-color-light:white;
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: red;
     --container-color: #fff;

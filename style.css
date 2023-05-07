@@ -231,11 +231,12 @@
   .card1,
   .card2 {
     width: 70%;
-    background-color: #fff;
+    background-color:linear-gradient(to bottom, #181d23 0%, #202736 80%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     margin: 20px auto; /* Center the card horizontally and add spacing between the cards */
+    margin-top: 50px;
   }
   
   /* Add equal distance between the cards */
