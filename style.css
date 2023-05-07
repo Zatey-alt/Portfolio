@@ -491,7 +491,7 @@ figcaption {
   line-height: 24px;
   font-size: 13px;
   color: #F0F0F0;
-  border-bottom: 1px solid teal;
+  border-bottom: 1px solid white;
 }
 
 .panel .slide ul li:last-child {
