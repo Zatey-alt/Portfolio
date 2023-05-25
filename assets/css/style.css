@@ -213,12 +213,38 @@ a:hover {
 }
 
 /*------/ Socials /------*/
+.socials1 {
+  padding: 1.5rem 0;
+}
+
+.socials1 ul li {
+  display: inline-block;
+}
+
 .socials {
   padding: 1.5rem 0;
 }
 
 .socials ul li {
   display: inline-block;
+}
+
+.socials1 .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #ffffff;
+  transition: all 500ms ease;
+}
+
+.socials1 .ico-circle:hover {
+  background-color: #000000;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
 }
 
 .socials .ico-circle {
@@ -622,7 +648,7 @@ a:hover {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -666,7 +692,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -685,7 +711,7 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,
@@ -1211,7 +1237,8 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-  background: #000000;
+  background: #ffffff;
+  color: #000000;
 }
 
 @keyframes animate-loading {
