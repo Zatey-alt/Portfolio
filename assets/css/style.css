@@ -979,6 +979,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  height: 30vh;
 }
 
 .work-img img {
